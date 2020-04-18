@@ -1,0 +1,17 @@
+body{
+    margin : 0;
+    padding: 0;
+}
+
+.particles-container{
+    position: absolute;
+    margin-top:-15%;
+    margin-left: -25%;
+    z-index: -5;
+    height: 95vh;
+    width: 97vw;
+}
+
+#particles-js{
+    height: 100%;
+}

@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './CSS/homepage.css';
+import Background from './functions/background';
+import Name from './functions/name';
+import Compteur from './functions/compteur';
+
 import * as serviceWorker from './serviceWorker';
 
+
+const html=(
+  <div className="contenu">
+    <Background/>
+    <Name name="Laura"/>
+    <div className="compteur">
+    <Compteur/>
+    </div>
+  </div>
+)
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  html,
   document.getElementById('root')
 );
 
